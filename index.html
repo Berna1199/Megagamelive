@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Verificação de Idade</title>
+  <style>
+    html,body{height:100%;margin:0}
+    body{
+      background:#000;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family:Arial, Helvetica, sans-serif;
+      color:#fff;
+    }
+
+    .container{
+      text-align:center;
+      width:90%;
+      max-width:420px;
+    }
+
+    img.hero{
+      width:200px;
+      height:200px;
+      object-fit:cover;
+      border-radius:10px;
+      margin:0 auto 18px;
+      display:block;
+      animation: spin 6s infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      16.66% { transform: rotate(360deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .question{
+      font-size:20px;
+      margin-bottom:14px;
+      font-weight:bold;
+    }
+
+    .buttons{
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .btn{
+      background:#007bff;
+      color:#fff;
+      padding:12px 25px;
+      text-decoration:none;
+      border-radius:10px;
+      font-size:16px;
+      font-weight:bold;
+      transition:0.2s;
+      width:100%;
+      max-width:200px;
+      text-align:center;
+    }
+    .btn:hover{
+      background:#005fcc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="hero" src="https://i.postimg.cc/ZKfqC5wB/FB-IMG-17617219664929168.jpg" alt="Imagem">
+
+    <div class="question">Você tem mais de 18 anos?</div>
+
+    <div class="buttons">
+      <a class="btn" href="https://www.megagamelive.com/affiliates/?btag=2282964">Sim</a>
+      <a class="btn" href="https://www.megagamelive.com/affiliates/?btag=2282964">Não</a>
+    </div>
+  </div>
+</body>
+</html>
